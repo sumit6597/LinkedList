@@ -59,7 +59,7 @@ public void insertAt(int index, int data){      //function for inserting node at
     else
     {
     Node n = head;                             //create a temporary traversal node 
-    for(int i=0; i<index-1;i++){               //mode till the index position
+    for(int i=0; i<index-1;i++){               //move till the index position
        n=n.next;
     }
      node.next=n.next;                          
